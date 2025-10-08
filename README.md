@@ -1,4 +1,4 @@
-### Simple reproducer project for a kotest bug.
+### Simple reproducer project for a kotest bug [5125](https://github.com/kotest/kotest/issues/5125).
 
 If the production source set contains a class or data class `PackageConfig`, the test instantiation of any test in the same package with access to that production source set fails:
 
