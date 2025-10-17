@@ -13,8 +13,8 @@ kotlin {
 }
 
 dependencies {
-    testImplementation("io.kotest:kotest-framework-engine:6.0.3")
-   testImplementation("io.kotest:kotest-runner-junit5:6.0.3")
+    testImplementation("io.kotest:kotest-framework-engine:6.0.4")
+   testImplementation("io.kotest:kotest-runner-junit5:6.0.4")
 }
 
 tasks.withType<Test>().configureEach {
